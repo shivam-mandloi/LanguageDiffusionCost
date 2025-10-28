@@ -1,0 +1,31 @@
+{
+  "_class_name": "UNet1DModel",
+  "_diffusers_version": "0.35.1",
+  "act_fn": null,
+  "block_out_channels": [
+    64,
+    128
+  ],
+  "down_block_types": [
+    "DownBlock1D",
+    "DownBlock1D"
+  ],
+  "downsample_each_block": false,
+  "extra_in_channels": 0,
+  "flip_sin_to_cos": true,
+  "freq_shift": 0.0,
+  "in_channels": 3,
+  "layers_per_block": 2,
+  "mid_block_type": "UNetMidBlock1D",
+  "norm_num_groups": 8,
+  "out_block_type": null,
+  "out_channels": 3,
+  "sample_rate": null,
+  "sample_size": 256,
+  "time_embedding_type": "fourier",
+  "up_block_types": [
+    "UpBlock1D",
+    "UpBlock1D"
+  ],
+  "use_timestep_embedding": false
+}
